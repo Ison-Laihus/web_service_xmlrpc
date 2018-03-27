@@ -1,0 +1,6 @@
+CREATE TABLE `user`(
+    `id` int(11) primary key auto_increment,
+    `name` varchar(16) not null,
+    `age` int(3) not null,
+    `sex` enum('male', 'female') not null
+) ENGINE=MyISAM DEFAULT CHARSET = utf8;
